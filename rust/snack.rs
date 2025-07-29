@@ -26,7 +26,7 @@ fn main() {
 
     println!("{}" ,number);
     println!("{}" ,item);
-    println!("{:.2}" , price * item as f64 );
+    println!("Total: R$ {:.2}" , price * item as f64 );
     
 
 }
