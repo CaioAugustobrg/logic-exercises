@@ -23,9 +23,6 @@ fn main() {
     .find(|(c, _)| *c == number)
     .unwrap().1;
 
-
-    println!("{}" ,number);
-    println!("{}" ,item);
     println!("Total: R$ {:.2}" , price * item as f64 );
     
 
